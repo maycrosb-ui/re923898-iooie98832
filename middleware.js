@@ -41,14 +41,14 @@ export function middleware(request) {
   // Redirect when ?ad=ad
   if (adParam === 'ad') {
     return NextResponse.redirect(
-      'https://bcqc.net/48xbrks',
+      'https://bcqc.net/fwpasds',
       { status: 301 }
     )
   }
 
   // Default redirect
   return NextResponse.redirect(
-    'https://bcqc.net/48xbrks',
+    'https://bcqc.net/fwpasds',
     { status: 302 }
   )
 }
